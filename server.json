@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ru.nova-amocrm/amocrm",
+  "title": "NOVA amoCRM / Kommo",
+  "description": "Remote MCP for amoCRM and Kommo: leads, contacts, tasks, pipelines, chats, Salesbot. OAuth.",
+  "version": "1.0.0",
+  "websiteUrl": "https://nova-amocrm.ru/widgets/mcp_server",
+  "icons": [
+    {
+      "src": "https://nova-amocrm.ru/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sp1-nova.ru/api/mcp-server/mcp/"
+    }
+  ]
+}

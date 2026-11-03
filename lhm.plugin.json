@@ -1,0 +1,11 @@
+{
+  "identifier": "nova-amocrm-mcp",
+  "name": "NOVA MCP for amoCRM",
+  "version": "1.0.0",
+  "author": "ООО «НОВАЦРМ» (NOVACRM LLC)",
+  "authorUrl": "https://nova-amocrm.ru",
+  "category": "productivity",
+  "cloudEndpoint": "https://sp1-nova.ru/api/mcp-server/mcp/",
+  "description": "Remote MCP for amoCRM CRM: leads, contacts, tasks, pipelines, chats, Salesbot. OAuth, no API keys.",
+  "homepage": "https://nova-amocrm.ru/widgets/mcp_server"
+}
